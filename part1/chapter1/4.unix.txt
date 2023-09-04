@@ -1,0 +1,32 @@
+In a 1980 lecture on "The Evolution of the UNIX Time-Sharing System," Dennis Ritchie summed up the spirit that started UNIX:
+        
+        What we wanted to preserve was not just a good environment in which to do
+        programming, but a system around which a fellowship could form. We knew from
+        experience that the essence of communual computing as supplied by remote-access,
+        time-shared machines is not just to type programs into a terminal instead of a
+        keypunch, but to encourage close communication.
+
+The foundation of UNIX was set with several key elements:
+    
+    1. The UNIX filesystem:
+            Because it included a structure that allowed levels of subdirectories (which, for today's desktop users, look like folders inside of folders), UNIX
+            could be used to organize the files and directories in intuitive ways. Furthermore, complex methods of accessing disks, tapes, and other devices are greatly simplified
+            by representing those devices as individual device files that one could access as items in a directory.
+
+    2. Input/ouput redirection:
+            Early UNIX systems also included input redirection and pipes. From a command line, UNIX users could redirect the output of a command to a file using a right-arrow key (>).
+            Later, the concept of pipes (|) was added where the output of one command could be directed to the input of another command.
+
+    3. Portability:
+            Simplifying the experience of using UNIX also led to it becoming extraordinarily portable to run on different computer hardware. By having device drivers 
+            (represented by files in the filesystem tree), UNIX could present an interface to applications in such a way that the programs didn't have to know about the details
+            of the underlying hardware.
+            To port UNIX later to another system, developers only had to change the drivers. The application programs didn't even have to change for different hardware.
+
+
+        To make Portability a reality, however, a high level programming language was needed to implement the software needed. To that end, Brian Kernighan and Dennis Ritchie created
+        the C programming language. In 1973, UNIX was rewritten in C. Today, C is still the primary language used to create the UNIX (and Linux) OS kernels. 
+
+
+Berkeley Software Distribution:
+        in 1975, UNIX V6 became the first version of UNIX available for widespread use outside of Bell Laboratories. From this early UNIX source code, the first major variant of UNIX was created at the University of California, Berkeley. It was named the Berkeley Software Distribution (BSD).

@@ -1,0 +1,35 @@
+Understanding What Linux Is
+
+Linux is a computer OS.
+An OS consists of the software that manages computer and lets applications run on it.
+
+The features that make up Linux and similar computer OS includes:
+1. Detecting and preparing hardware:
+        when the linux system boots up, it looks at the components on the computer (CPU, harddrive, network card, etc) and loads the software (drivers and modules) needed to access those particular hardware devices.
+
+2. Managing Processes:
+        The operating system must keep track of multiple processes running at the same time and decide which have access to the CPU and when.
+        The system also must offer ways of starting, stopping, and changing the status of processes.
+
+3. Managing Memory:
+        RAM and swap space (extended memory) must be allocated to applications as they need memory. The OS decides how requests for memory are handled.
+
+4. Provding UI:
+        An OS must provide ways of accessing the system. The first Linux systems were accessed from a CLI called a shell. Today, GUI are commonly available as well.
+
+5. Controlling Filesystems:
+        Filesystem structures are built into the OS (or loaded as modules). The OS contains ownership and access to files and directories (folders) that the filesystems contains.
+
+6. Providing user access and authentication:
+        Creating user accounts and allowing boundaries to be set between users is a basic feature of Linux.
+        Separate user and group accounts enable users to control their own files and processes.
+
+7. Offering admin utilities:
+        In Linux, hundreds (perhaps thousands) of commands and graphical windows are available to do things like add users, manage disks, monitor the network, install software, and generally secure and manage the computer. Web UI tools, such as Cockpit, have lowered the bar for complex admin tasks.
+
+8. Starting up services:
+        To use printers, handle log messages, and provide a variety of system and network services, processes called daemon processes run in the background, waiting for requests to come in. Linux provides different ways of starting and stopping services.
+        In other words, while Linux includes web browser to view web pages, it can also be the computer that servrs up web pages to others.
+    
+9. Programming tools:
+        A wide variety of programming utilities for creating applications and libraries for implementing specialty interfaces are available with Linux.

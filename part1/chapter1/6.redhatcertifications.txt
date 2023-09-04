@@ -1,0 +1,41 @@
+RHCSA topics
+
+    Understanding essential tools
+        I am expected to have a working knowledge of the command shell (bash), including how to use proper command syntax and do input/output
+        redirection (< > >>).
+        I need to know how to log in to remote and local systems.
+        create, edit, move, copy, link, delete and change permission and owership on files.
+        I should know how to look up information on man pages and /usr/share/doc
+        (most of these topics are covered in Chapter 3 and Chapter 4 in this book, Chapter 5 describes how to edit and find files.)
+
+    Operate running systems:
+        understand the linux boot process, and how to shut down, reboot and change to different targets (previously called runlevels).
+        I need to identify and kill processes as requested.
+        I must be able to find and interpret log files.
+        (Chapter 15 describes how to change target and manage system services. Chapter 6 on managing and changing processes. Logging is Chapter 13)
+
+    Configure local storage:
+        Setting up disk partitions includes creating physical volumes and configuring them to be used for logical volume management (LVM) or encryption (LUKS).
+        I should be able to set up those partitions as filesystem or swap space that can be mounted or enabled at boot time.
+        (Disk partitioning and LVM are covered in chapter 12. LUKS and other encryption topics are described in chapter 23, "Understanding Advanced Linux Security")
+
+    Create and configure filesystem:
+        Create and automatically mount different kinds of filesystems, including regular Linux filesystems (ext2, ext3, or ext4) and network filesystems (NFS).
+        Create collaborative directories using the set group ID bit fature.
+        I must be able to use LVM to extend the size of a logical volume.
+        (Filesystem topics are covered in Chapter 12, Chapter 20 for NFS coverage)
+
+    Deploy, configure, and maintain systems:
+        This covers a range of topics, including configuring networing and creating cron tasks.
+        For software packaging, I must be able to install packages from Red Hat CDN, a remote repository, or the local filesystem.
+        (Cron facility is described in Chapter 13)
+
+    Manage users and groups:
+        I must know how to add, delete, and change user and group accounts.
+        I must know password aging, using the chage command.
+        (chapter 11 for information on configuring users and groups)
+
+    Manage security:
+        I must have a basic Understanding of how to set up a firewall (firewalld, system-config-firewall, or iptables) and how to use SELinux
+        I must be able to setup SSH to do key-based authentication.
+        (learn about SELinux in chapter 24, Firewalls are covered in chapter 25, chapter 13)

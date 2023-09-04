@@ -1,0 +1,21 @@
+    As someone managing Linux system, I need to learn how to work with `startingWithLinux.txt` features described there. Advanced features in Linux, often used in large enterprises, include the following:
+
+1. Clustering: 
+        Linux can be configure to work in clusters so that multiple systems can appear as one system to the outside world. Services can be configured to pass back and forth between cluster nodes while appearing to those using the services that they are running without interruption.
+
+2. Virtualization: 
+        To manage computing resources more efficiently, Linux can run as a Virtualization host. On that host, you could run other Linux systems, Microsoft Windows, BSD, etc. To thhe outside world, each of those virtual guests appears as a separate computer. KVM and Xen are two technologies in Linux for creating virtual hosts.
+
+3. Cloud computing:
+        To manage large-scale virtualization environments, I can use full-blown cloud computing platforms based on Linux. Projects such as OpenStack and Red Hat Virtualization (and its upstream oVirt project) can simultaneously manage many virtualization hosts, virtual networks, user and system auth, virtual guests, and networked storage.
+        Project such as K8 can manage containerized applications across massive data centers.
+
+4. Real-time computing:
+        Linux can be configured for real-time computing, where high priority processes can expect fast, predictable attention.
+
+5. Specialized storage:
+        Instead of just storing data on computer's hard disk, you can store it on many specialized local and networked storage interfaces that are available in Linux.
+        Shared storage devices available in Linux include projects such as iSCSI, Fibre Channel, and Infiniband. Entire open source storage platforms include projects such as Ceph, GlusterFS
+
+
+        Some of the advanced topics are not covered in this book. However, the features covered here for using shell, working with disks, starting and stopping services, and configuring a variety of servers should serve as a foundation for working with the advanced features.

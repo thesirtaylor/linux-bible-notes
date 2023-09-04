@@ -1,0 +1,36 @@
+GNU transitions UNIX to freedom
+
+In 1984, Richard M. Stallman started the GNU project, recursively named by the phrase GNU is Not UNIX.
+As a project of the Free Software Foundation (FSF), GNU was intended to become a recoding of the entire UNIX OS that could be freely distributed.
+
+The term free software has been mostly replaced by the term open source software.
+The term free software is preferred by the Free Software Foundation, while open source is promoted by the Open Source Initiative.
+
+To accommodate both camps, some people use the term Free and Open Source Software (FOSS) instead.
+
+An underlying principle of FOSS, however, is that although you are free to use the software as you like, you have some responsibility to make
+the improvements that you make to the code available to others. This way, everyone in the community can benefit from your work, as you have 
+benefited from the work of others.
+
+To define clearly how open source software should be handled, the GNU software project created GNU Public Licence, or GPL.
+
+although many software licenses cover slightly different approaches to protecting free software, the GNU is the most well known and it's the one that
+covers the Linuc kernel itself.
+
+The GNU Public Licence includes the following basic featured:
+
+    Author rights: /
+        The original author retains the right to their software.
+    Free distribution: 
+        People can use the GNU software in their own software, changing and redistributing
+        it as they please. They do, however, have to include the source code with their distribution 
+        (or make it easily available).
+    Copyright maintained:
+        Even if you were to repackage and resell the software, the original GNU agreement must be maintained
+        with the software, which means that all future recipients of the software have the opportunity to change
+        the source code, just as you did.
+
+There is no warranty on GNU software. If something goes wrong, the original developer of the software has no obligation to fix the problem.
+However, many organizations, large and small, offer paid support for the software when it is included on their Linux or other open source software distribution.
+
+Despitr its success in producing thousands of UNIX utilities, the GNU project itself failed to produce the kernel.

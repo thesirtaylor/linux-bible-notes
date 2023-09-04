@@ -1,0 +1,61 @@
+Lists of Chapters and contained topics.
+These topics are distributed based on requirments for RHCSA (Red Hat® Certified System Administrator)
+Check redhatcertifications.txt for grouping context.
+
+Chapter 1 
+Chapter 2
+Chapter 3
+Chapter 4
+Chapter 5 -> How to edit and find files
+Chapter 6 -> How to manage changing processes
+Chapter 7
+Chapter 8
+Chapter 9
+Chapter 10
+Chapter 11 -> Configuring users and groups
+Chapter 12 -> Disk partitioning and LVM are covered | Filesystem topics
+Chapter 13 -> Logging | Cron facility | Key-based authentication
+Chapter 14 -> dns server
+Chapter 15 -> How to change targets and manage system services
+Chapter 16
+Chapter 17 -> Web server
+Chapter 18
+Chapter 19 -> configuring Samba
+Chapter 20 -> NFS 
+Chapter 21
+Chapter 22
+Chapter 23 -> LUKS and other encryption topics
+Chapter 24 -> SELinux
+Chapter 25 -> Firewalls
+Chapter 26
+Chapter 27
+Chapter 28
+Chapter 29 -> Ansible
+Chapter 30
+
+
+Most of these topics are covered in this book. Refer to Red Hat documentation (https://
+access.redhat.com/documentation) under the Red Hat Enterprise Linux heading for
+descriptions of features not found in this book. In particular, the system administration
+guides contain descriptions of many of the RHCSA-related topics.
+
+RHCE topics
+RHCE exam topics cover more Advanced server configuration, along with a variety of security features for securing those servers in RHEL 8.
+Check the RHCE exam objectives site for the most up-to-date information on topics that I should study for the exam.
+
+    System configuration and management
+        - firewall
+        - kerberos authentication
+        - shell scripting
+        - SELinux
+        - Ansible
+    
+    Installing and configuring network services
+        - web server
+        - dns server
+        - NFS server
+        - Window file sharing server
+        - Mail server
+        - secure shell server
+        - network time server
+        - database server

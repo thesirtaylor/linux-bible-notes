@@ -1,0 +1,8 @@
+Microsoft and Apple are considered proprietary operating systems.
+What that means is:
+
+    1. One cannot see the code used to create the OS, and therefore, one cannot change the OS at its most basic levels if it doesn't suit needs, and one cannot use the OS as base for other OSes from source code.
+
+    2. One cannot check the code to find bugs, explore security vulnerabilties, or simply learn what that code is doing.
+
+    3. One may not be able to plug one's own software easily into the OS if the creators of that system don't want to expose the programming interfaces needed to the outside world.
